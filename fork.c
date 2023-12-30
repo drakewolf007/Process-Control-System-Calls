@@ -1,3 +1,4 @@
+/* Process Control System Calls like getpid(), getppid(), wait, execl, exit(), fork()*/
 #include<stdio.h>
 #include<stdlib.h>
 #include<sys/wait.h>
