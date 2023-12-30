@@ -1,3 +1,4 @@
+//Reversing a string program
 #include<stdio.h>
 #include<string.h>
 int main()
@@ -10,6 +11,7 @@ int main()
 	
 	//Calculating the length of the string 
 	int len = strlen(str);
+	printf("The length of the entered string is : %d\n", len);
 	
 	//Defining the for loop for swapping
 	for(int i = 0, j = len-1; i <= j; i++, j--)
